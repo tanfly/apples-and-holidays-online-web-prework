@@ -72,7 +72,7 @@ holiday_hash.collect do |seasons, holidays|
       holiday.flatten
   end
 end
-
+end
 
 
 
