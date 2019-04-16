@@ -53,7 +53,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-holiday_hash.each do |keys, values|
+holiday_hash.collect do |keys, values|
    return "#{key}: #{value}"
 end
 end
